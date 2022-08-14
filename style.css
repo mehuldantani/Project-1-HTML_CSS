@@ -1,0 +1,137 @@
+*{
+    background-color: #fff;
+    font-family: Orbitron;
+    font-size: 20px;
+}
+
+.navbar-container{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    list-style: none;
+}
+
+li:nth-child(1){
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.button-group{
+    margin-top: 20px;
+    display: flex;
+}
+
+.nav-button , .button-email{
+    margin-left: 20px;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 135px;
+    height: 37px;
+    font-size: 20px;
+    color: gray;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.square{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    left: 160px;
+    z-index: 0;
+}
+
+img[alt~="person-hero-iamge"] {
+    position: relative;
+    margin-left: 50px;
+    margin-top: -500px;
+    width: 450px;
+    height: 550px;
+}
+
+.hero-container-right{
+    margin-left: 650px;
+    margin-top: -475px;
+}
+
+.hero-description{
+    width: 600px;
+    text-align: center;
+    height: 100px;
+    margin-left: 75px;
+    font-size: 15px;
+    font-family: arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+img[alt~="globe-pattern"] {
+    margin-left: 200px;
+    position: relative;
+    top: -450px;
+    height: 65px;
+    width: 65px;
+}
+
+img[alt~="start-pattern"] {
+    position: relative;
+    margin-left: 900px;
+    top: -325px;
+    height: 55px;
+    width: 55px;
+}
+
+img[alt~="start-pattern-bottom"] {
+    position: relative;
+    margin-left: 625px;
+    top: 100px;
+    height: 45px;
+    width: 45px;
+}
+
+
+.hero-heading{
+    align-items: center;
+    font-size: 55px;
+    font-weight: 800px;
+}
+
+.button-email{
+    margin-left: 250px;
+    top: -20px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Orbitron;
+    color: black;
+}
+
+.button-join{
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 10px;
+    height: 37px;
+    font-size: 20px;
+}
+
+.contact-heading{
+    position: relative;
+    align-items: center;
+    margin-left: 375px;
+    top:90px;
+    font-family: arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.icons{
+    position: relative;
+    align-items: center;
+    margin-left: 325px;
+    top: 70px;
+}
